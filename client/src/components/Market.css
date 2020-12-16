@@ -1,0 +1,87 @@
+input{
+    border-bottom:1px solid beige;
+    border-radius: 5px;
+}
+
+#market_input_Search{
+    width: 90%;
+}
+
+#file1{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input:focus{
+    border-bottom: 1px solid blue;
+}
+
+
+.market_main{
+    display: inline-block;
+    width: 100%;
+    background: lightgrey;
+}
+.market_left_margin{
+    width:20%;
+    float: left;
+    min-height: 100vh;
+    background: white;
+    border-top-right-radius: 5px;
+    box-shadow: 1px 0 7px darkslategrey;
+    margin-right: 3px;
+}
+
+.market_left_margin_inside_upper{
+    padding: 2% 17%;
+    border-bottom: 1px solid lightgrey;
+}
+
+.market_left_margin_inside_lower{
+    padding: 2% 12%;
+}
+
+.market_create_group{
+    background: blue;
+    color: white;
+    justify-content: center;
+    width: 94%;
+    height: 40px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.arket_group_name_input{
+    border: "none";
+    border-bottom: 1px solid black;
+    padding: 2% 3%;
+    margin-top: 2%;
+}
+
+.market_right_margin{
+    width: 79%;
+    height:100%;
+    float: left;
+}
+
+.market_profile_image{
+    height:30px;
+    width: 30px;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+
+.market_group_list{
+    padding: 2% 0%;
+}
+
+.Join{
+    float: right;
+    background: blue;
+    color: white;
+    justify-content: center;
+    width: 65px;
+    height: 32px;
+    border-radius: 5px;
+}
